@@ -1,0 +1,53 @@
+<html>
+    <head>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    
+    <body>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <h1 id="title">GENERAL FORM</h1>
+      <p id="description">This is a general form which will be used in future.</p> 
+      <div>
+      <form id="survey-form">
+        <label id="name-label" for="name">FIRST NAME:</label>
+        <input type="text" id="name" placeholder="Enter only charactres" required>
+        <br><br>
+        <label  for="last-name">LAST NAME:</label>
+        <input type="text" id="last-name" required>
+        <br><br>
+        <label id="email-label" for="email">E-MAIL:</label>
+        <input type="email" id="email" placeholder="Enter your E-mail with '@' in it."required>
+        <br><br>
+        <label id="number-label" for="number">AGE:</label>
+        <input type="number" id="number" step=1 min=0 max=100 placeholder="Age upto 100yrs." required>
+        <br><br>
+        <label for="dropdown">GENDER:</label>
+        <select id="dropdown">
+          <option>MALE</option>
+          <option>FEMALE</option>
+          <option>TRANSGENDER</option>
+        </select>
+        <br><br>
+        <label id="gender">WHERE DO YOU LIVE:</label>
+        <br>
+        <input type="radio" name="radio" id="radio-button" value="INDIA" checked>INDIA</input>
+      <br>
+      <input type="radio" name="radio" id="radio-buttons" value="OUTSIDE INDIA">OUTSIDE INDIA</input>
+      <br><br>
+      <label id="hobbies">HOBBIES:</label>
+      <br>
+      <input type="checkbox" id="check-box" value="GAMING">PLAY GAMES</input>
+      <br>
+      <input type="checkbox" id="check-box" value="READ">READING</input>
+      <br>
+      <input type="checkbox" id="check-box" value="TRAVEL">WANDERER</input>
+      <br>
+      <input type="checkbox" id="check-box" value="SLEEPING">SLEEPING</input>
+      <br><br>
+      <textarea id="textarea" rows="4" cols="50">ENTER YOUR SUGGESTIONS HERE(if any)</textarea>
+      <br><br>
+      <input type="submit" id="submit">
+       </form>
+      </div>
+    </body>
+</html>

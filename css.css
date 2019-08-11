@@ -1,0 +1,29 @@
+body
+{
+  background-color:skyblue;
+  text-align:center;
+  font-family:serif;
+}
+#title
+{
+  font-family:Helvetica;
+  text-decoration:underline;
+  color:green;
+}
+#description
+{
+  font-size:20px;
+}
+#gender ,#hobbies
+{
+  text-decoration:underline;
+  font-family:sans-serif;
+}
+div
+{
+  background-color:white;
+  width:900px;
+  position:absolute;
+  margin-top:30px;
+  margin-left:200px;
+}
